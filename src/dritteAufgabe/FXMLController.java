@@ -9,7 +9,7 @@ import javafx.scene.control.ColorPicker;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
+
 
 public class FXMLController {
     //für die Zeichenfläche
@@ -63,6 +63,7 @@ public class FXMLController {
     protected void rechteckKlick(ActionEvent event) {
         werkzeug = 3;
     }
+
     //Hier wurde circleFilledKlick erstellt, die der gefüllten Kreisschaltfläche zugewiesen werden soll.
     @FXML
     protected void circleFilledKlick(ActionEvent event){
